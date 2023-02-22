@@ -53,21 +53,21 @@
 
 <h4>Estruturas de Dados</h4>
 <ol>
-  <li>Conjuntos de Dados Unidimensionais I - Java 1D Array</li>
-  <li>Conjuntos de Dados Unidimensionais II - Java 1D Array</li>
+  <li>Conjuntos de Dados Unidimensionais I - Java 1D Array I</li>
+  <li>Conjuntos de Dados Unidimensionais II - Java 1D Array II</li>
   <li>Conjuntos de Dados Bidimensionais - Java 2D Array</li>
   <li>Subconjuntos - Java Subarray</li>
   <li>Listas I - Java List</li>
-  <li>Listas II - Java Arraylist</li>
+  <li>Listas II - Java ArrayList</li>
   <li>Mapeamento - Java Map</li>
   <li>Pilha - Java Stack</li>
-  <li>Hashset - Java Hashset</li>
+  <li>Hashset - Java HashSet</li>
   <li>Tipos Genéricos - Java Generics</li>
   <li>Interface para Comparação - Java Comparator</li>
   <li>Ordenação Simples - Java Sort</li>
   <li>Fila com Duplo Final (Fila Duplamente Terminada) - Java Deque</li>
-  <li>Tipo Abstrato de Dado para Conjuntos de Bits - Java Bitset</li>
-  <li>Fila com Prioridade - Java Priority Queue (Heap binário)</li>
+  <li>Tipo Abstrato de Dado para Conjuntos de Bits - Java BitSet</li>
+  <li>Fila com Prioridade - Java Priority Queue</li>
 </ol>
 
 <h4>Programação Orientada a Objetos</h4>
@@ -76,11 +76,14 @@
   <li>Herança II - Java Inheritance</li>
   <li>Classes Abstratas - Java Abstract Class</li>
   <li>Interfaces - Java Interface</li>
-  <li>Polimorfismo de Sobrescrita I - Java Method Overriding</li>
-  <li>Polimorfismo de Sobrescrita II - Java Method Overriding (Super Keyword)</li>
+  <li>Polimorfismo de Sobrescrita I - Java Method Overriding I</li>
+  <li>Polimorfismo de Sobrescrita II - Java Method Overriding II (Super Keyword)</li>
   <li>Verificando Tipos usando Instanceof - Java Instanceof Keyword</li>
   <li>Iterator - Java Iterator</li>
-  <li>Tratamento de Exceções</li>
+</ol>
+
+<h4>Tratamento de Exceções</h4>
+<ol>
   <li>Tratamento de Exceção I - Java Exception Handling (throws and throw new)</li>
   <li>Tratamento de Exceção II - Java Exception Handling (try-catch-finally)</li>
 </ol>
@@ -88,8 +91,8 @@
 <h4>Avançado</h4>
 <ol>
   <li>Múltiplos Argumentos em Função - Java Varargs (Simple Addition)</li>
-  <li>API para Reflexão I - Java Reflection API (Attributes)</li>
-  <li>API para Reflexão II -  Java Reflection API (Class and Methods - Can You Access)</li>
+  <li>API para Reflexão I - Java Reflection API I (Attributes)</li>
+  <li>API para Reflexão II -  Java Reflection API II (Class and Methods - Can You Access)</li>
   <li>Checagem de Primos utilizando Múltiplos Argumentos em Função - Java Prime Checker (Varargs and Static Import)</li>
   <li>Padrões de Projeto I - Java Factory Pattern</li>
   <li>Padrões de Projeto II - Java Singleton Pattern</li>
@@ -110,23 +113,18 @@
   <li>Inteiro Solitário - Java Lonely Integer</li>
   <li>Diferença entre as Diagonais - Java Diagonal Difference</li>
   <li>Ordenação por Contagem I - Java Counting Sort</li>
-  <li>Incompleto -  Java Mock Test II</li>
   <li>Sequência Zig Zag -  Java Zig Zag Sequence</li>
   <li>Destruidores de Torres - Java Tower Breakers</li>
   <li>Cifra de Cesar - Java Caesar Cipher</li>
-  <li>Incompleto -  Java Mock Test III</li>
   <li>Desafio das Matrizes -  Java Grid Challenge</li>
   <li>Soma Recursiva de Digitos - Java Recursive Digit Sum</li>
   <li>Caos de Ano Novo - Java New Year Chaos</li>
-  <li>Incompleto - Java Mock Test IV</li>
   <li>Mesclar Duas Listas Simplesmente Encadeadas Ordenadas - Java Merge Two Sorted Linked Lists</li>
   <li>Fila Usando Duas Pilhas - Java Queue Using Two Stacks</li>
   <li>Abre-Fecha Balanceado - Java Balanced Brackets</li>
-  <li>Incompleto - Java Mock Test V</li>
   <li>Editor de Texto Simples - Java Simple Text Editor</li>
   <li>Blocos de Lego (Tetranacci) - Java Lego Blocks</li>
   <li>Jesse e os Cookies - Java Jesse and Cookies</li>
-  <li>Incompleto - Java Mock Test VI</li>
   <li>Árvores: Percorrimento Pré-Ordem</li>
   <li>Árvores: Decodificando Huffman</li>
   <li>Conjunto Sem Prefixo - Java No Prefix Set</li>
@@ -226,8 +224,8 @@ myInt is: 5
   <h4>Anotações & Observações</h4>
 
 ```  
-Neste desafio optei por utilizar apenas uma variável para armazenar os três números inteiros, isto é, já que não havia 
-necessidade de utilização posterior destes números.
+Neste desafio optei por utilizar apenas uma variável para armazenar os três números inteiros, isto é, 
+já que não havia necessidade de utilização posterior destes números.
 ```
   <br>
   <br>
@@ -281,9 +279,10 @@ Int: 42
   <h4>Anotações & Observações</h4>
 
 ```  
-É importante ressaltar, principalmente neste desafio, que a utilização do método nextLine() da classe Scanner, isto é, em 
-seguida a chamada de nextDouble(), nextInt() e afins, deve ser precedida pela chamada deste mesmo método. Isto ocorre em 
-virtude do funcionamento dos métodos que, na verdade, buscam tokens.
+É importante ressaltar, principalmente neste desafio, que a utilização do método nextLine() da 
+classe Scanner, isto é, em seguida a chamada de nextDouble(), nextInt() e afins, deve ser 
+precedida pela chamada deste mesmo método. Isto ocorre em virtude do funcionamento dos 
+métodos que, na verdade, buscam tokens.
 ```
   <br>
   <br>
@@ -410,3 +409,63 @@ Exemplo simples sobre o uso da estrutura de seleção Se e Senão, isto é, dent
   <br>
   https://github.com/ErickB51/hackerrank-stuff/blob/32ce10ba897c342808cb3f9de2c0f694bbf5d288/codigos/introducao/CurrencyFormatter.java#L1-L21
   <br>
+
+<br>
+
+<h2 align="center">Textos - Strings </h2>
+
+  <h3>Texto em Java - Java Strings Introduction</h3>
+  <br>
+  https://github.com/ErickB51/hackerrank-stuff/blob/6240667ac3c95b619335f3bb5cb4193827b3f77e/codigos/textos-strings/StringsIntroduction.java#L1-L20
+  <br>
+  
+  <h3>Partes de um Texto - Java Substring</h3>
+  <br>
+  https://github.com/ErickB51/hackerrank-stuff/blob/6240667ac3c95b619335f3bb5cb4193827b3f77e/codigos/textos-strings/Substring.java#L1-L21
+  <br>
+  
+  <h3>Comparações entre Partes de um Texto - Java Substring Comparisons</h3>
+  <br>
+  https://github.com/ErickB51/hackerrank-stuff/blob/6240667ac3c95b619335f3bb5cb4193827b3f77e/codigos/textos-strings/SubstringComparisons.java#L1-L46
+  <br>
+  
+  <h3>Texto ao Contrário - Java String Reverse</h3>
+  <br>
+  https://github.com/ErickB51/hackerrank-stuff/blob/6240667ac3c95b619335f3bb5cb4193827b3f77e/codigos/textos-strings/StringReverse.java#L1-L31
+  <br>
+  
+  <h3>Anagramas - Java Anagrams</h3>
+  <br>
+  https://github.com/ErickB51/hackerrank-stuff/blob/6240667ac3c95b619335f3bb5cb4193827b3f77e/codigos/textos-strings/Anagrams.java#L1-L53
+  <br>
+  
+  <h3>Tokens - Java String Tokens</h3>
+  <br>
+  https://github.com/ErickB51/hackerrank-stuff/blob/6240667ac3c95b619335f3bb5cb4193827b3f77e/codigos/textos-strings/StringTokens.java#L1-L33
+  <br>
+  
+  <h3>Padrão para Checagem de Sintaxe - Java Pattern Syntax Checker</h3>
+  <br>
+  https://github.com/ErickB51/hackerrank-stuff/blob/6240667ac3c95b619335f3bb5cb4193827b3f77e/codigos/textos-strings/PatternSyntaxChecker.java#L1-L33
+  <br>
+  
+  <h3>Expressões Regulares - Java Regex I</h3>
+  <br>
+  https://github.com/ErickB51/hackerrank-stuff/blob/6240667ac3c95b619335f3bb5cb4193827b3f77e/codigos/textos-strings/Regex1.java#L1-L28
+  <br>
+  
+  <h3>Expressões Regulares para Palavras Duplicadas - Java Regex II</h3>
+  <br>
+  https://github.com/ErickB51/hackerrank-stuff/blob/6240667ac3c95b619335f3bb5cb4193827b3f77e/codigos/textos-strings/Regex2.java#L1-L37
+  <br>
+  
+  <h3>Expressões Regulares para Validação de Nomes de Usuário - Java Valid Username Regular Expression</h3>
+  <br>
+  https://github.com/ErickB51/hackerrank-stuff/blob/6240667ac3c95b619335f3bb5cb4193827b3f77e/codigos/textos-strings/ValidUsernameRegularExpression.java#L1-L35
+  <br>
+  
+  <h3>Extrator de Conteúdo de Tags - Java Tag Content Extractor</h3>
+  <br>
+  https://github.com/ErickB51/hackerrank-stuff/blob/6240667ac3c95b619335f3bb5cb4193827b3f77e/codigos/textos-strings/TagContentExtractor.java#L1-L138
+  <br>
+
