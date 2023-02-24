@@ -1,6 +1,6 @@
 <br>
 <p align="center">
-  <img width="300px" heigth="300px" src="https://github.com/ErickB51/hackerrank-stuff/blob/main/imagens/my-hackerrank-stuff-logo-redimensionada.png">
+  <img width="300px" height="300px" src="https://github.com/ErickB51/hackerrank-stuff/blob/main/imagens/my-hackerrank-stuff-logo-redimensionada.png">
 </p>
 <br>
 
@@ -14,10 +14,10 @@
 
 <h4>Introdução</h4>
 <ol>
-  <li>Bem vindo ao Java! — Welcome to Java</li>
-  <li>Entrada Padrão e Saída Padrão I — Java Stdin/Stdout (Standard Input/Output) I</li>
-  <li>Entrada Padrão e Saída Padrão II — Java Stdin/Stdout (Standard Input/Output) II</li>
-  <li>Se e Senão — Java If — Else</li>
+  <li><a href="https://github.com/ErickB51/hackerrank-stuff/blob/main/topicos/introducao/enunciados-e-explicacoes/welcome-to-java.md">Bem vindo ao Java! — Welcome to Java</a></li>
+  <li><a href="https://github.com/ErickB51/hackerrank-stuff/blob/main/topicos/introducao/enunciados-e-explicacoes/stdin-stdout.md">Entrada Padrão e Saída Padrão I — Java Stdin/Stdout (Standard Input/Output) I</a></li>
+  <li><a href="https://github.com/ErickB51/hackerrank-stuff/blob/main/topicos/introducao/enunciados-e-explicacoes/stdin-stdout2.md">Entrada Padrão e Saída Padrão II — Java Stdin/Stdout (Standard Input/Output) II</a></li>
+  <li><a href="https://github.com/ErickB51/hackerrank-stuff/blob/main/topicos/introducao/enunciados-e-explicacoes/if-else.md">Se e Senão — Java If-Else</a></li>
   <li>Formatação de Saída — Java Output Formatting</li>
   <li>Laços de Repetição I — Java Loops I</li>
   <li>Laços de Repetição II — Java Loops II</li>
@@ -72,7 +72,7 @@
 
 <h4>Programação Orientada a Objetos</h4>
 <ol>
-  <li>Herança I —  Java Inheritance I</li>
+  <li>Herança I — Java Inheritance I</li>
   <li>Herança II — Java Inheritance II</li>
   <li>Classes Abstratas — Java Abstract Class</li>
   <li>Interfaces — Java Interface</li>
@@ -131,240 +131,10 @@
 </ol>
 
 <br>
+<br>
 
-<h2 align="center">Introdução</h2>
-  <h3>Bem vindo ao Java! - Welcome to Java</h3>
-  <p  align="justify">Bem-vindo ao mundo do Java! Neste desafio, praticaremos a impressão no fluxo para saída padrão de dados (também conhecida como Standard Out ou, simplesmente, stdout).</p>
-  <p  align="justify">Os stubs de código em seu editor declaram uma classe WelcomeToJava e um método principal. Complete o método principal copiando as duas linhas de código abaixo e colando-as dentro do corpo do seu próprio corpo.</p>
+<h2 align="center">Temporário</h2>
 
-```java
-System.out.println("Hello, World.");
-System.out.println("Hello, Java.");
-```
-
-  <h4>Formato de Entrada</h4>
-  <p  align="justify">Não há entradas para este desafio.</p>
-  <h4>Formato de Saída</h4>
-  <p  align="justify">Você precisa exibir duas linhas de saída:</p>
-  <p  align="justify">Exiba Hello, World. na primeira linha.</p>
-  <p  align="justify">Exiba Hello, Java. na segunda linha.</p>
-  <h4>Exemplo de Saída</h4> 
-
-```
-Hello, World.
-Hello, Java.
-```
-
-#### O texto acima foi retirado de [Hackerrank](https://www.hackerrank.com/), traduzido e adaptado.
-
-  <br>
-  https://github.com/ErickB51/hackerrank-stuff/blob/32ce10ba897c342808cb3f9de2c0f694bbf5d288/codigos/introducao/WelcomeToJava.java#L1-L10
-  
-  <h4>Anotações & Observações</h4>
-
-```  
-Apenas alguns print :)
-```
-  <br>
-  <br>
- 
-  <h3>Entrada Padrão e Saída Padrão I - Java Stdin/Stdout (Standard Input/Output) I</h3>
-  <p  align="justify">A maioria dos desafios do HackerRank exige que você leia a entrada padrão de dados (também conhecida como Standard In ou, simplesmente, stdin) e grave a saída no fluxo para saída padrão de dados (stdout). Uma maneira popular de ler a entrada do stdin é usar a classe Scanner e especificar o Input Stream como System.in. Por exemplo:</p>
-
-```java
-Scanner scanner = new Scanner(System.in);
-String myString = scanner.next();
-int myInt = scanner.nextInt();
-scanner.close();
-
-System.out.println("myString is: " + myString);
-System.out.println("myInt is: " + myInt);
-```
-
-  <p  align="justify">O código acima cria um objeto Scanner chamado scanner e o utiliza para ler uma String e um int. Em seguida, ele fecha o objeto Scanner porque não há mais entrada para ler e imprime em stdout usando System.out.println(String). Então, se nossa entrada for:</p>
-
-```
-Hi 5
-```
-  <p  align="justify">Nosso código vai fazer com que seja exibido:</p>
-
-```
-myString is: Hi
-myInt is: 5
-```
-  <p  align="justify">Alternativamente, você pode usar a classe BufferedReader.</p>
-
-  <h4>Tarefa</h4>
-  <p  align="justify">Neste desafio, você deve ler inteiros de stdin e depois imprimi-los em stdout. Cada inteiro deve ser impresso em uma nova linha. Para tornar o problema um pouco mais fácil, uma parte do código é fornecida para você no editor abaixo.</p>
-  
-  <h4>Formato de Entrada</h4>
-  <p  align="justify">Existem três linhas de entrada, e cada linha contém apenas um inteiro.</p>
-
-  <h4>Exemplo de Entrada</h4> 
-
-```
-42
-100
-125
-```
-
-  <h4>Exemplo de Saída</h4> 
-
-```
-42
-100
-125
-```
-
-#### O texto acima foi retirado de [Hackerrank](https://www.hackerrank.com/), traduzido e adaptado.
-  
-  <br>
-  https://github.com/ErickB51/hackerrank-stuff/blob/32ce10ba897c342808cb3f9de2c0f694bbf5d288/codigos/introducao/StdinStdout.java#L1-L22
-    
-  <h4>Anotações & Observações</h4>
-
-```  
-Neste desafio optei por utilizar apenas uma variável para armazenar os três números inteiros, isto é, 
-já que não havia necessidade de utilização posterior destes números.
-```
-  <br>
-  <br>
-  
-  <h3>Entrada Padrão e Saída Padrão II - Java Stdin/Stdout (Standard Input/Output) II</h3>
-  <p  align="justify">Neste desafio, você deve ler um inteiro, um número flutuante de precisão dupla e uma String de stdin e, em seguida, imprimir os valores de acordo com as instruções na seção Formato de Saída abaixo. Para tornar o problema um pouco mais fácil, uma parte do código é fornecida para você no editor.</p>
-  <p  align="justify">Observação: recomendamos concluir Java Stdin e Stdout I antes de tentar este desafio.</p>
-  
-  <h4>Formato de Entrada</h4>
-  <p  align="justify">Existem três linhas de entrada:</p>
-
-```
-A primeira linha contém um inteiro.
-A segunda linha contém um flutuante de precisão dupla (double).
-A terceira linha contém uma String.
-```
-
-  <h4>Formato de Saída</h4>
-  <p  align="justify">Deverão existir três linhas de saída:</p>
-  
-```
-1. Na primeira linha, imprima "String:" seguido pela String inalterada lida de stdin.
-2. Na segunda linha, imprima "Double:" seguido pelo double inalterado lido de stdin.
-3. Na terceira linha, imprima "Int:" seguido pelo inteiro inalterado lido de stdin.
-```
-
-  <p  align="justify">Para facilitar o problema, uma parte do código já é fornecida no editor.</p>
-  <p  align="justify">Observação: se você usar o método nextLine() imediatamente após o método nextInt(), lembre-se de que nextInt() lê tokens inteiros; por causa disso, o último caractere de nova linha para essa linha de entrada de inteiro ainda está na fila no buffer de entrada e o próximo nextLine() estará lendo o restante da linha de inteiro (que está vazia).</p>
- 
-  <h4>Exemplo de Entrada</h4> 
-
-```
-42
-3.1415
-Welcome to HackerRank's Java tutorials!
-```
-
-  <h4>Exemplo de Saída</h4> 
-
-```
-String: Welcome to HackerRank's Java tutorials!
-Double: 3.1415
-Int: 42
-```
-
-#### O texto acima foi retirado de [Hackerrank](https://www.hackerrank.com/), traduzido e adaptado.
- 
-  <br>
-  https://github.com/ErickB51/hackerrank-stuff/blob/32ce10ba897c342808cb3f9de2c0f694bbf5d288/codigos/introducao/StdinStdout2.java#L1-L24
-  
-  <h4>Anotações & Observações</h4>
-
-```  
-É importante ressaltar, principalmente neste desafio, que a utilização do método nextLine() da 
-classe Scanner, isto é, em seguida a chamada de nextDouble(), nextInt() e afins, deve ser 
-precedida pela chamada deste mesmo método. Isto ocorre em virtude do funcionamento dos 
-métodos que, na verdade, buscam tokens.
-```
-  <br>
-  <br>
-  
-  <h3>Se e Senão - Java If-Else</h3>
-  <p  align="justify">Neste desafio, testamos seu conhecimento sobre o uso de instruções condicionais if-else para automatizar processos de tomada de decisão. Uma instrução if-else tem o seguinte fluxo lógico:</p>
-  
-  <br>
-  <p align="center">
-    <img width="547px" heigth="534px" src="https://github.com/ErickB51/hackerrank-stuff/blob/main/imagens/if-then-else.png">
-  </p>
-  <br>
-  
-  <h4>Fonte:</h4>
-  
-O diagrama acima foi retirado da página "Conditional_(computer_programming)" da [Wikipedia](https://en.wikipedia.org/wiki/).
-  
-   <h4>Tarefa</h4>
-   <p  align="justify">Dado um número inteiro, n, execute as seguintes ações condicionais:</p>
-   <ul>
-      <li>Se n for ímpar, imprima Weird</li>
-      <li>Se n for par e estiver no intervalo de 2 a 5, imprima Not Weird</li>
-      <li>Se n for par e estiver no intervalo de 6 a 20, imprima Weird</li>
-      <li>Se n for par e maior que 20, imprima Not Weird</li>
-   </ul>
-   <p  align="justify">Complete os stubs de código fornecidos em seu editor para imprimir se n é estranho (Weird) ou não (Not Weird).</p>
-  
-  <h4>Formato de Entrada</h4>
-  <p  align="justify">Uma única linha contendo um inteiro positivo, n.</p>
-
-  <h4>Restrições</h4>
-  <ul>
-	  <li>1 <= n <= 100 </li>
-  </ul>
-
-  <h4>Formato de Saída</h4>
-  <p  align="justify">Imprima Weird se o número é estranho; de outra forma, imprima Not Weird.</p>
- 
-  <h4>Exemplo de Entrada 0</h4>
-
-```
-3
-```
-
-  <h4>Exemplo de Saída 0</h4> 
-
-```
-Weird
-```
-
-  <h4>Exemplo de Entrada 1</h4>
-
-```
-24
-```
-
-  <h4>Exemplo de Saída 1</h4> 
-
-```
-Not Weird
-```
-
-  <h4>Explicação</h4>
-  <p  align="justify">Caso de Exemplo 0: n = 3</p>
-  <p  align="justify">n é ímpar e números ímpares são estranhos, então imprima Weird.</p>
-  <p  align="justify">Caso de Exemplo 1: n = 24</p>
-  <p  align="justify">n > 20 e n é par, então n não é estranho. Dessa forma, devemos imprimir Not Weird.</p>
-
-#### O texto acima foi retirado de [Hackerrank](https://www.hackerrank.com/), traduzido e adaptado.
- 
-  <br>
-https://github.com/ErickB51/hackerrank-stuff/blob/32ce10ba897c342808cb3f9de2c0f694bbf5d288/codigos/introducao/IfElse.java#L1-L48
- 
-  <h4>Anotações & Observações</h4>
-
-```  
-Exemplo simples sobre o uso da estrutura de seleção Se e Senão, isto é, dentro da linguagem Java.
-```
-
-  <br>
-  <br>
-  
   <h3>Formatação de Saída - Java Output Formatting</h3>
   <br>
   https://github.com/ErickB51/hackerrank-stuff/blob/32ce10ba897c342808cb3f9de2c0f694bbf5d288/codigos/introducao/OutputFormatting.java#L1-L25
