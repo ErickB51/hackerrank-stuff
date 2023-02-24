@@ -1,6 +1,6 @@
 <br>
 <p align="center">
-  <img width="300px" height="300px" src="https://github.com/ErickB51/hackerrank-stuff/blob/main/imagens/my-hackerrank-stuff-logo-redimensionada.png">
+  <img width="300px" src="https://github.com/ErickB51/hackerrank-stuff/blob/main/imagens/my-hackerrank-stuff-logo-redimensionada.png">
 </p>
 <br>
 
@@ -137,47 +137,47 @@
 
   <h3>Formatação de Saída - Java Output Formatting</h3>
   <br>
-  https://github.com/ErickB51/hackerrank-stuff/blob/32ce10ba897c342808cb3f9de2c0f694bbf5d288/codigos/introducao/OutputFormatting.java#L1-L25
+  https://github.com/ErickB51/hackerrank-stuff/blob/0f90e508c4d31688bb450cf65e2c6036fa615357/topicos/introducao/codigos/OutputFormatting.java#L1-L25
   <br>
   
   <h3>Laços de Repetição I - Java Loops I</h3>
   <br>
-  https://github.com/ErickB51/hackerrank-stuff/blob/32ce10ba897c342808cb3f9de2c0f694bbf5d288/codigos/introducao/Loops.java#L1-L23
+  https://github.com/ErickB51/hackerrank-stuff/blob/0f90e508c4d31688bb450cf65e2c6036fa615357/topicos/introducao/codigos/Loops.java#L1-L23
   <br>
   
   <h3>Laços de Repetição II - Java Loops II</h3>
   <br>
-  https://github.com/ErickB51/hackerrank-stuff/blob/32ce10ba897c342808cb3f9de2c0f694bbf5d288/codigos/introducao/Loops2.java#L1-L50
+  https://github.com/ErickB51/hackerrank-stuff/blob/0f90e508c4d31688bb450cf65e2c6036fa615357/topicos/introducao/codigos/Loops2.java#L1-L50
   <br>
   
   <h3>Tipos de Dados - Java Datatypes</h3>
   <br>
-  https://github.com/ErickB51/hackerrank-stuff/blob/32ce10ba897c342808cb3f9de2c0f694bbf5d288/codigos/introducao/Datatypes.java#L1-L38
+  https://github.com/ErickB51/hackerrank-stuff/blob/0f90e508c4d31688bb450cf65e2c6036fa615357/topicos/introducao/codigos/Datatypes.java#L1-L38
   <br>
   
   <h3>Final de Arquivo - Java End-of-File</h3>
   <br>
-  https://github.com/ErickB51/hackerrank-stuff/blob/32ce10ba897c342808cb3f9de2c0f694bbf5d288/codigos/introducao/EndOfFile.java#L1-L27
+  https://github.com/ErickB51/hackerrank-stuff/blob/0f90e508c4d31688bb450cf65e2c6036fa615357/topicos/introducao/codigos/EndOfFile.java#L1-L27
   <br>
   
   <h3>Bloco Estático de Inicialização - Java Static Initializer Block</h3>
   <br>
-  https://github.com/ErickB51/hackerrank-stuff/blob/32ce10ba897c342808cb3f9de2c0f694bbf5d288/codigos/introducao/StaticInitializerBlock.java#L1-L55
+  https://github.com/ErickB51/hackerrank-stuff/blob/0f90e508c4d31688bb450cf65e2c6036fa615357/topicos/introducao/codigos/StaticInitializerBlock.java#L1-L55
   <br>
   
   <h3>Conversão de Tipos - Java Int to String</h3>
   <br>
-  https://github.com/ErickB51/hackerrank-stuff/blob/32ce10ba897c342808cb3f9de2c0f694bbf5d288/codigos/introducao/IntToString.java#L1-L71
+  https://github.com/ErickB51/hackerrank-stuff/blob/0f90e508c4d31688bb450cf65e2c6036fa615357/topicos/introducao/codigos/IntToString.java#L1-L71
   <br>
   
   <h3>Data e Tempo - Java Date and Time</h3>
   <br>
-  https://github.com/ErickB51/hackerrank-stuff/blob/32ce10ba897c342808cb3f9de2c0f694bbf5d288/codigos/introducao/DateAndTime.java#L1-L52
+  https://github.com/ErickB51/hackerrank-stuff/blob/0f90e508c4d31688bb450cf65e2c6036fa615357/topicos/introducao/codigos/DateAndTime.java#L1-L52
   <br>
   
   <h3>Formatação Monetária - Java Currency Formatter</h3>
   <br>
-  https://github.com/ErickB51/hackerrank-stuff/blob/32ce10ba897c342808cb3f9de2c0f694bbf5d288/codigos/introducao/CurrencyFormatter.java#L1-L21
+  https://github.com/ErickB51/hackerrank-stuff/blob/0f90e508c4d31688bb450cf65e2c6036fa615357/topicos/introducao/codigos/CurrencyFormatter.java#L1-L21
   <br>
 
 <br>

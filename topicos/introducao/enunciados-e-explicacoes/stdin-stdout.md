@@ -49,7 +49,7 @@ myInt is: 5
 #### O texto acima foi retirado de [Hackerrank](https://www.hackerrank.com/), traduzido e adaptado.
 
   <br>
-  https://github.com/ErickB51/hackerrank-stuff/blob/32ce10ba897c342808cb3f9de2c0f694bbf5d288/topicos/introducao/codigos/StdinStdout.java#L1-L22
+  https://github.com/ErickB51/hackerrank-stuff/blob/0f90e508c4d31688bb450cf65e2c6036fa615357/topicos/introducao/codigos/StdinStdout.java#L1-L22
 
 <h4>Anotações & Observações</h4>
 
