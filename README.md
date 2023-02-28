@@ -18,9 +18,9 @@
   <li><a href="https://github.com/ErickB51/hackerrank-stuff/blob/main/topicos/introducao/enunciados-e-explicacoes/stdin-stdout.md">Entrada Padrão e Saída Padrão I — Java Stdin/Stdout (Standard Input/Output) I</a></li>
   <li><a href="https://github.com/ErickB51/hackerrank-stuff/blob/main/topicos/introducao/enunciados-e-explicacoes/stdin-stdout2.md">Entrada Padrão e Saída Padrão II — Java Stdin/Stdout (Standard Input/Output) II</a></li>
   <li><a href="https://github.com/ErickB51/hackerrank-stuff/blob/main/topicos/introducao/enunciados-e-explicacoes/if-else.md">Se e Senão — Java If-Else</a></li>
-  <li>Formatação de Saída — Java Output Formatting</li>
-  <li>Laços de Repetição I — Java Loops I</li>
-  <li>Laços de Repetição II — Java Loops II</li>
+  <li><a href="https://github.com/ErickB51/hackerrank-stuff/blob/main/topicos/introducao/enunciados-e-explicacoes/output-formatting.md">Formatação de Saída — Java Output Formatting</a></li>
+  <li><a href="https://github.com/ErickB51/hackerrank-stuff/blob/main/topicos/introducao/enunciados-e-explicacoes/loops.md">Laços de Repetição I — Java Loops I</a></li>
+  <li><a href="https://github.com/ErickB51/hackerrank-stuff/blob/main/topicos/introducao/enunciados-e-explicacoes/loops2.md">Laços de Repetição II — Java Loops II</a></li>
   <li>Tipos de Dados — Java Datatypes</li>
   <li>Final de Arquivo — Java End-of-File</li>
   <li>Bloco Estático de Inicialização — Java Static Initializer Block</li>
