@@ -1,17 +1,18 @@
 <h2 align="center">Formatação de Saída — Java Output Formatting</h2>
-  <p  align="justify">Java's System.out.printf function can be used to print formatted output. The purpose of this exercise is to test your understanding of formatting output using printf.</p>
-  <p  align="justify">To get you started, a portion of the solution is provided for you in the editor; you must format and print the input to complete the solution.</p>
+  <p  align="justify">A função System.out.printf do Java pode ser usada para imprimir a saída formatada. O objetivo deste exercício é testar sua compreensão de formatação da saída usando printf.</p>
+  <p  align="justify">Para começar, uma parte da solução é fornecida no editor; você deve formatar e imprimir a entrada para concluir a solução.</p>
 
 <h4>Formato de Entrada</h4>
-  <p  align="justify">Every line of input will contain a String followed by an integer.</p>
-  <p align="justify">Each String will have a maximum of 10 alphabetic characters, and each integer will be in the inclusive range 0 from to 999.</p>
+  <p  align="justify">Cada linha de entrada conterá uma String seguida por um inteiro.</p>
+  <p align="justify">Cada String terá no máximo 10 caracteres alfabéticos, e cada número inteiro estará no intervalo inclusivo de 0 a 999.</p>
 
 <h4>Formato de Saída</h4>
-  <p  align="justify">In each line of output there should be two columns:</p>
+  <p  align="justify">Em cada linha de saída deve haver duas colunas:</p>
 
 ```
-1. The first column contains the String and is left justified using exactly 15 characters.
-2. The second column contains the integer, expressed in exactly 3 digits; if the original input has less than three digits, you must pad your output's leading digits with zeroes.
+1. A primeira coluna contém a String e é justificada à esquerda usando exatamente 15 caracteres.
+2. A segunda coluna contém o inteiro, expresso em exatamente 3 dígitos; se a entrada original 
+tiver menos de três dígitos, você deve preencher os dígitos iniciais de sua saída com zeros.
 ```
 
 <h4>Exemplo de Entrada</h4>
@@ -33,7 +34,7 @@ python         050
 ```
 
 <h4>Explicação</h4>
-<p  align="justify">Each String is left-justified with trailing whitespace through the first 15 characters. The leading digit of the integer is the 16th character, and each integer that was less than 3 digits now has leading zeroes.</p>
+<p  align="justify">Cada String é justificada à esquerda com espaços em branco nos primeiros 15 caracteres. O dígito inicial do número inteiro é o 16º caractere, e cada número inteiro com menos de 3 dígitos agora tem zeros iniciais.</p>
 
 #### O texto acima foi retirado de [Hackerrank](https://www.hackerrank.com/), traduzido e adaptado.
 
@@ -43,7 +44,8 @@ python         050
 <h4>Anotações & Observações</h4>
 
 ```  
-Aqui o objetivo é exibir uma String no formato "nome digito", isto é, onde o nome está
-justificado em 15 espaços a esquerda. Existem diversas maneiras de se realizar isso, porém,
-nesse caso, optou-se por utilizar o método printf da classe out.
+Aqui o objetivo é exibir uma String no formato "nome dígito", isto é, onde o nome está
+justificado em 15 espaços à esquerda. Existem diversas maneiras de se realizar isto, porém,
+nesse caso, optou-se por utilizar o método printf da classe out (de acordo com as recomen
+dações propostas pelo desafio).
 ```
