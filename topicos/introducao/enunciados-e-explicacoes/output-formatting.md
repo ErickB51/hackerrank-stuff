@@ -34,7 +34,7 @@ python         050
 ```
 
 <h4>Explicação</h4>
-<p  align="justify">Cada String é justificada à esquerda com espaços em branco nos primeiros 15 caracteres. O dígito inicial do número inteiro é o 16º caractere, e cada número inteiro com menos de 3 dígitos agora tem zeros iniciais.</p>
+<p  align="justify">Cada String é justificada à esquerda com espaços em branco nos primeiros 15 caracteres. O dígito inicial do número inteiro é o 16.º caractere, e cada número inteiro com menos de 3 dígitos agora tem zeros iniciais.</p>
 
 #### O texto acima foi retirado de [Hackerrank](https://www.hackerrank.com/), traduzido e adaptado.
 

@@ -1,7 +1,7 @@
 <h2 align="center">Laços de Repetição I — Java Loops I</h2>
 
 <h4>Objetivo</h4>
-  <p  align="justify">Neste desafio, iremos usar estruturas de repetições (também conhecidas como laços de repetição ou, simplesmente, loops) para nos ajudar a resolver algumas operações matemáticas básicas.</p>
+  <p  align="justify">Neste desafio, iremos usar estruturas de repetições (também conhecidas como laços de repetição ou, simplesmente, “loops”) para nos ajudar a resolver algumas operações matemáticas básicas.</p>
   
 <h4>Tarefa</h4>
   <p  align="justify">Dado um inteiro N, imprima suas 10 primeiras multiplicações. Cada múltiplo N x I (onde 1 <= I <= N) deve ser impresso em uma nova linha na forma: N x I = resultado.</p>

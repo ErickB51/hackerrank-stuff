@@ -53,7 +53,7 @@ os respectivos valores de Ai, Bi, Ni e os valores para aquela consulta.
 		<br>
 	  	<p align="justify">... e assim por diante.</p>
 	  	<p align="justify">Uma vez que atingirmos N = 10, nós iremos imprimir os primeiros dez termos, resultados destas séries de operações, em uma única linha na forma de inteiros separados por espaços.</p>
-	  	<li>Em um outro exemplo, iremos usar A = 5, B = 3 e N = 5 para produzir algums séries (S0, S1, ... , SN-1).</li>
+	  	<li>Em um outro exemplo, iremos usar A = 5, B = 3 e N = 5 para produzir algumas séries (S0, S1, ... , SN-1).</li>
 	  	<br>
 		<ul>
 	    		<li>S0 = 5 + 1 x 3 = 8</li>
@@ -63,7 +63,7 @@ os respectivos valores de Ai, Bi, Ni e os valores para aquela consulta.
 	    		<li>S4 = 5 + 1 x 3 + 2 x 3 + 4 x 3 + 8 x 3 + 16 x 3 = 98</li>
 		</ul>
 		<br>
-	  	<p align="justify">Nós então impriremos cada termo resultante de nossas séries em uma única linha de inteiros separados por espaços.</p>
+	  	<p align="justify">Nós então imprimiremos cada termo resultante de nossas séries em uma única linha de inteiros separados por espaços.</p>
 	</ol>
 
 #### O texto acima foi retirado de [Hackerrank](https://www.hackerrank.com/), traduzido e adaptado.
