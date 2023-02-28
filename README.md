@@ -10,6 +10,16 @@
 
 <br>
 
+<h2 align="center">Importante</h2>
+
+<p  align="justify">Todos os desafios já foram resolvidos, no entanto, o processo de adaptar os textos do Hackerrank para um arquivo .md é trabalhoso e, por isso, nem todos possuem um documento contendo enunciado e explicação. Se você tiver interesse em simplesmente acessar a resolução de um desafio, basta seguir as instruções do gif abaixo.</p>
+
+<br>
+<p align="center">
+  <img width="908px" heigth="720"  src="https://github.com/ErickB51/hackerrank-stuff/blob/main/imagens/how-to-access-other-challenges.gif">
+</p>
+<br>
+
 <h2 align="center">Sumário</h2>
 
 <h4>Introdução</h4>
