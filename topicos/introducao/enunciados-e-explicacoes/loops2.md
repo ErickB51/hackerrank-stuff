@@ -11,7 +11,8 @@
 
 ```
 A primeira linha contém um inteiro, Q, denotando o número de consultas que serão realizadas.
-Cada linha i das Q subsequentes linhas contém três inteiros separados por espaços descrevendo os respectivos valores de Ai, Bi, Ni e os valores para aquela consulta.
+Cada linha i das Q subsequentes linhas contém três inteiros separados por espaços descrevendo 
+os respectivos valores de Ai, Bi, Ni e os valores para aquela consulta.
 ```
 
 <h4>Restrições</h4>
@@ -40,30 +41,30 @@ Cada linha i das Q subsequentes linhas contém três inteiros separados por espa
 ```
 
 <h4>Explicação</h4>
-<p align="justify">Temos duas consultas:</p>
-<ol>
-	<li>Utilizaremos A = 0, B = 2 e N = 10 para produzir algumas séries</li>
-	<p align="justify">S0, S1, ... , SN-1</p>
-	<ul>
-		<li>S0 = 0 + 1 * 2 = 2</li>
-		<li>S1 = 0 + 1 * 2 + 2 * 2 = 6</li>
-		<li>S2 = 0 + 1 * 2 + 2 * 2 + 4 * 2 = 14</li>
-	</ul>
-
-	<p align="justify">... e assim por diante.</p>
-
-	<p align="justify">Uma vez que atingirmos N = 10, nós iremos imprimir os primeiros dez termos, resultados destas séries de operações, em uma única linha na forma de inteiros separados por espaços.</p>
-
-	<li> Em um outro exemplo, iremos usar A = 5, B = 3 e N = 5 para produzir algums séries (S0, S1, ... , SN-1).</li>
-	<ul>
-		<li>S0 = 5 + 1 * 3 = 8</li>
-		<li>S1 = 5 + 1 * 3 + 2 * 3 = 14</li>
-		<li>S2 = 5 + 1 * 3 + 2 * 3 + 4 * 3 = 26</li>
-		<li>S3 = 5 + 1 * 3 + 2 * 3 + 4 * 3 + 8 * 3 = 50</li>
-		<li>S4 = = 5 + 1 * 3 + 2 * 3 + 4 * 3 + 8 * 3 + 16 * 3 = 98</li>
-	</ul>
-	<p align="justify">Nós então impriremos cada termo resultante de nossas séries em uma única linha de inteiros separados por espaços.</p>
-</ol>
+	<p align="justify">Temos duas consultas:</p>
+	<ol>
+  		<li>Utilizaremos A = 0, B = 2 e N = 10 para produzir algumas séries</li>
+	  	<p align="justify">S0, S1, ... , SN-1</p>
+		<ul>
+	    		<li>S0 = 0 + 1 x 2 = 2</li>
+	    		<li>S1 = 0 + 1 x 2 + 2 x 2 = 6</li>
+	    		<li>S2 = 0 + 1 x 2 + 2 x 2 + 4 x 2 = 14</li>
+	  	</ul>
+		<br>
+	  	<p align="justify">... e assim por diante.</p>
+	  	<p align="justify">Uma vez que atingirmos N = 10, nós iremos imprimir os primeiros dez termos, resultados destas séries de operações, em uma única linha na forma de inteiros separados por espaços.</p>
+	  	<li>Em um outro exemplo, iremos usar A = 5, B = 3 e N = 5 para produzir algums séries (S0, S1, ... , SN-1).</li>
+	  	<br>
+		<ul>
+	    		<li>S0 = 5 + 1 x 3 = 8</li>
+	    		<li>S1 = 5 + 1 x 3 + 2 x 3 = 14</li>
+	    		<li>S2 = 5 + 1 x 3 + 2 x 3 + 4 x 3 = 26</li>
+	    		<li>S3 = 5 + 1 x 3 + 2 x 3 + 4 x 3 + 8 x 3 = 50</li>
+	    		<li>S4 = 5 + 1 x 3 + 2 x 3 + 4 x 3 + 8 x 3 + 16 x 3 = 98</li>
+		</ul>
+		<br>
+	  	<p align="justify">Nós então impriremos cada termo resultante de nossas séries em uma única linha de inteiros separados por espaços.</p>
+	</ol>
 
 #### O texto acima foi retirado de [Hackerrank](https://www.hackerrank.com/), traduzido e adaptado.
 
